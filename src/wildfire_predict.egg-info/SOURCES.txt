@@ -1,9 +1,12 @@
 README.md
 pyproject.toml
+src/developer/__init__.py
 src/developer/developer-interface.py
+src/developer/training_history.py
 src/developer/utils.py
-src/user/__init__.py
-src/user/user-interface.py
+src/responder/__init__.py
+src/responder/feedback.py
+src/responder/predictor.py
 src/wildfire_predict.egg-info/PKG-INFO
 src/wildfire_predict.egg-info/SOURCES.txt
 src/wildfire_predict.egg-info/dependency_links.txt
