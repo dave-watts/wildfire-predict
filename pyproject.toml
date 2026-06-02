@@ -1,5 +1,5 @@
 [project]
-name = "wildfire-predict"
+name = "wildfire_predict"
 version = "0.1.0"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -7,6 +7,13 @@ dependencies = [
     "pandas>=2.3.3",
     "streamlit>=1.58.0",
 ]
+
+[tool.poetry]
+name = "wildfire_predict"
+version = "0.1.0"
+description = "Wildfire prediction dashboard"
+authors = ["DW <david.terenence.watts@gmail.com>"]
+package-mode = false  
 
 [build-system]
 requires = ["setuptools>=68"]
