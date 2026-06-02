@@ -1,6 +1,7 @@
 .gitkeep
 .DS_Store
 
+uv.toml
 
 # Virtual Environments (Local packages)
 venv/

@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-PATH = "../models/"
+MODEL_PATH = "../models/"
 
 # 1. Ensure this path points to an actual CSV spreadsheet, NOT a .pt model weights file!
 FILE_PATHS = [
@@ -48,7 +48,7 @@ def main():
 
     try:
         # 2. Safely read your data spreadsheet
-        df = pd.read_csv(PATH + selected_file)
+        df = pd.read_csv(MODEL_PATH + selected_file)
 
         # 3. Use st.dataframe() to render it beautifully on the web page
         st.dataframe(df)
@@ -114,7 +114,7 @@ def main():
                 st.error(f"❌ Cannot plot chart. Missing columns from CSV: {missing}")
 
     except FileNotFoundError:
-        st.error(f"❌ Could not find your data file at: {PATH + selected_file}")
+        st.error(f"❌ Could not find your data file at: {MODEL_PATH + selected_file}")
         st.info("💡 Creating a temporary preview dataset for you instead:")
 
 
