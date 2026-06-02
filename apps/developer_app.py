@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-MODEL_PATH = "../models/"
+MODEL_PATH = "models/"
 
 # 1. Ensure this path points to an actual CSV spreadsheet, NOT a .pt model weights file!
 FILE_PATHS = [
