@@ -1,2 +1,17 @@
 .gitkeep
 .DS_Store
+
+# Virtual Environments (Local packages)
+venv/
+.venv/
+env/
+ENV/
+
+# Python Bytecode (Generated automatically by Python to speed up execution)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
