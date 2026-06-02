@@ -1,7 +1,6 @@
 .gitkeep
 .DS_Store
 
-models/
 
 # Virtual Environments (Local packages)
 venv/
